@@ -45,13 +45,16 @@ public class HeadersTest {
 		// Not need for getting all header like below. Same can be done using log().headers()
 		
 		// Get multiple headers
+		/*
 		 Headers headers_values = res.getHeaders();
 		
 		 for(Header hd : headers_values)
 		 {
 			 System.out.println(hd.getName() + " : " + hd.getValue());
 		 }
-		 
+		 */
+		
+		System.out.println(res);
 		 
 	}
 		
